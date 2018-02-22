@@ -4,6 +4,7 @@
   <%= f.fields_for :ingredients do |i| %>
     Ingredient Name: <%= :name %>
     Ingredient Quantity: <%= :quantity %>
+  <% end %>
 
   <%= f.submit %>
 <% end %>
